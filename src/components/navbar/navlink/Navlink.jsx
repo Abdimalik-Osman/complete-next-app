@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 
 const NavLink = ({ item }) => {
   const pathName = usePathname();
+  // temporary
     const session = true;
     const isAdmin = true;
   return (
